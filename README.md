@@ -16,3 +16,18 @@ Controls [Not yet]:
   - (initial) Basic servo controls using .ino files.
   - (planned) ROS packages for motion/trajectory planning, visualization in RViz, and feedback control.
  
+```
+robotic-arm-vision/
+├── src/                    # Core application code
+│   ├── vision/             # Computer vision modules
+│   ├── control/            # Robotic arm control
+│   ├── communication/      # Hardware communication
+│   └── utils/              # Utility functions
+├── hardware/               # Physical components
+├── arduino/                # Microcontroller firmware
+├── examples/               # Demo applications
+├── tests/                  # Unit testing framework
+├── docs/                   # Comprehensive documentation
+├── scripts/                # Setup and utility scripts
+└── config/                 # Configuration files
+```
